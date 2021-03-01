@@ -1,0 +1,57 @@
+/* подключаем шрифты F1*/
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  /*убираем точки*/
+  list-style: none;
+}
+a, /* убираем у ссылок предустановки*/
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,/*убираем стили у заголовков*/
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  /* Убираем фантомный отступ от картинки */
+  vertical-align: top;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+body {
+  line-height: 1;
+  color: #000;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+/*---------------------------------------------------------------------*/
